@@ -7,7 +7,7 @@ This project was completed as part of a **peer-graded assignment** for the **Int
 ## Files
 
 **Included in this repository:**
-- `Disaster Tweets RNN Classification.ipynb`: Jupyter notebook containing EDA, text preprocessing, RNN model building, training, evaluation, and submission generation for Kaggle.
+- `nlp_disaster_tweets_kaggle_mini_project`: Jupyter notebook containing EDA, text preprocessing, RNN model building, training, evaluation, and submission generation for Kaggle.
 - `train.csv`: Training dataset with labeled tweets.
 - `test.csv`: Test dataset with unlabeled tweets (for submission).
 - `submission_baseline.csv`: Predictions from the baseline RNN model.
@@ -15,9 +15,6 @@ This project was completed as part of a **peer-graded assignment** for the **Int
 - `submission_stacked.csv`: Predictions from the stacked LSTM model.
 
 > All files are included for reproducibility and ease of review. You can run the notebook end-to-end without downloading additional files from Kaggle.
-
-
-> **To run the notebook successfully**, please download the dataset from the [Kaggle NLP Getting Started competition page](https://www.kaggle.com/competitions/nlp-getting-started) and place the files in the same directory as the notebook.
 
 ## Models
 Three RNN models were trained and compared:
