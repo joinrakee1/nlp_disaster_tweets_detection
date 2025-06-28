@@ -23,7 +23,11 @@ Three RNN models were trained and compared:
 3. **Variant 2**: Stacked LSTM with batch normalization, dropout = 0.5, learning rate = 0.0005
 
 ## Results
-The Bidirectional LSTM model achieved the highest validation accuracy (~76.7%). Validation curves and training logs for all three models are included in the notebook for comparison.
+
+The **Bidirectional LSTM** model achieved the highest validation accuracy (~76.4%) in the final run. Validation curves and training logs for all three models are included in the notebook for comparison.
+
+It is worth noting that in some previous runs, the **Baseline RNN** model achieved higher validation accuracy than the bidirectional and stacked variants. This variation is expected in deep learning workflows due to factors like random weight initialization, dropout behavior, and the absence of a fixed random seed. These small changes can influence the training dynamics, especially on smaller datasets. 
+
 
 ## Requirements
 - Python 3.10
