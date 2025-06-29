@@ -8,6 +8,7 @@ This project was completed as part of a **peer-graded assignment** for the **Int
 
 **Included in this repository:**
 - `nlp_disaster_tweets_kaggle_mini_project`: Jupyter notebook containing EDA, text preprocessing, RNN model building, training, evaluation, and submission generation for Kaggle.
+- `nlp_disaster_tweets_kaggle_mini_project.pdf`: PDF version of the full notebook run including EDA, model training, evaluation, and final results — ideal for quick review without setting up the environment.
 - `train.csv`: Training dataset with labeled tweets.
 - `test.csv`: Test dataset with unlabeled tweets (for submission).
 - `submission_baseline.csv`: Predictions from the baseline RNN model.
